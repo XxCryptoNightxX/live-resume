@@ -5,10 +5,22 @@
 	.name-container {
 		flex-direction: column; 
 		text-align: center;
+		height: 100%;
 	}
 	.name-container ul{
 		margin: 0;
 		padding: 0;
+	}
+	footer{
+		display: flex;
+		flex-direction: row;
+    	flex-wrap: nowrap;
+    	justify-content: center;
+    	align-content: stretch;
+    	align-items: center;
+	}
+	footer .name-container{
+    	justify-content: space-between;
 	}
 
 }
