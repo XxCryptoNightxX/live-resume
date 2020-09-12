@@ -1,0 +1,17 @@
+@media print {
+	nav, #wall, .dwnBtn{
+		display: none;
+	}
+	.name-container {
+		flex-direction: column; 
+		text-align: center;
+	}
+	.name-container ul{
+		margin: 0;
+		padding: 0;
+	}
+
+}
+
+
+
