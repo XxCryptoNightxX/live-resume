@@ -304,3 +304,28 @@ header{
     75%  {filter: drop-shadow(0 0 8px #fff);}
     100% {filter: drop-shadow(0 0 10px #fff);}
 }
+#wall{
+  height: auto;
+  width: 100%;
+  padding: 0;
+  background: blue;
+
+}
+#wall .inner{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: stretch;
+  align-items: center;
+  width: auto;
+  overflow: auto;
+  box-shadow: inset 0px 0px 55px 0px rgba(0,0,0,0.75);
+  }  
+#wall .inner img{
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  height: 250px;
+  width: auto;
+}
